@@ -8,22 +8,22 @@ provides-member:
 provides-dynamic-lookup:
 - "layoutSubviews"
 depends-top-level:
-- !private "Array"
-- "UITableViewCell"
-- "AssignmentPrecedence"
-- "UIVisualEffectView"
-- !private "UIBlurEffect"
 - !private "StringLiteralType"
 - !private "!="
+- !private "UIAccessibilityIsReduceTransparencyEnabled"
+- "UIVisualEffectView"
 - "NSCoder"
-- "UIView"
-- !private "SideMenuManager"
+- "UITableViewCell"
 - !private "!"
 - "UITableViewVibrantCell"
-- !private "UIAccessibilityIsReduceTransparencyEnabled"
 - !private "&&"
-- !private "UIColor"
 - !private "UIVibrancyEffect"
+- !private "SideMenuManager"
+- !private "UIColor"
+- !private "Array"
+- !private "UIBlurEffect"
+- "UIView"
+- "AssignmentPrecedence"
 depends-member:
 - !private ["Ps9AnyObject", "SideMenuManager"]
 - !private ["Ps9AnyObject", "UIAccessibilityIsReduceTransparencyEnabled"]
@@ -790,8 +790,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Target Support Files/SideMenu/SideMenu-umbrella.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/Pods.build/Debug-iphoneos/SideMenu.build/unextended-module.modulemap"
+- "/Users/sijo/Desktop/test2/Pods/Target Support Files/SideMenu/SideMenu-umbrella.h"
+- "/Users/sijo/Desktop/test2/Build/Intermediates/Pods.build/Debug-iphoneos/SideMenu.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
