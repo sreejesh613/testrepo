@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/sijo/Desktop/test2/Build/Products/Debug-iphoneos/Pods_ULCH.framework/Headers",
+      'name': "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/Pods_ULCH.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -14,29 +14,29 @@
         {
           'type': 'file',
           'name': "Pods_ULCH-Swift.h",
-          'external-contents': "/Users/sijo/Desktop/test2/Build/Products/Debug-iphoneos/Pods_ULCH.framework/Headers/Pods_ULCH-Swift.h"
+          'external-contents': "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/Pods_ULCH.framework/Headers/Pods_ULCH-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sijo/Desktop/test2/Build/Products/Debug-iphoneos/Pods_ULCH.framework/Modules",
+      'name': "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/Pods_ULCH.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sijo/Desktop/test2/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-ULCH.build/module.modulemap"
+          'external-contents': "/Users/sijo/Desktop/test2/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-ULCH.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/sijo/Desktop/test2/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Headers",
+      'name': "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SideMenu-Swift.h",
-          'external-contents': "/Users/sijo/Desktop/test2/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+          'external-contents': "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
         },
         {
           'type': 'file',
@@ -47,12 +47,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/sijo/Desktop/test2/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Modules",
+      'name': "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/sijo/Desktop/test2/Build/Intermediates/Pods.build/Debug-iphoneos/SideMenu.build/module.modulemap"
+          'external-contents': "/Users/sijo/Desktop/test2/Build/Intermediates/Pods.build/Debug-iphonesimulator/SideMenu.build/module.modulemap"
         }
       ]
     }

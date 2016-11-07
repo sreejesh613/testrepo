@@ -1,8 +1,8 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "4fe8da51e4125f660e0d8a54dc44b330"
-build_time: [530709346, 613850000]
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "55c1a05652f881fe9f1db57e66fa16ce"
+build_time: [531846088, 174640000]
 inputs:
-  "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/SideMenu/Pod/Classes/SideMenuManager.swift": [529737873, 0]
-  "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/SideMenu/Pod/Classes/SideMenuTransition.swift": [529737873, 0]
-  "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/SideMenu/Pod/Classes/UISideMenuNavigationController.swift": [529737873, 0]
-  "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift": [529737873, 0]
+  "/Users/sijo/Desktop/test2/Pods/SideMenu/Pod/Classes/SideMenuManager.swift": [529737873, 0]
+  "/Users/sijo/Desktop/test2/Pods/SideMenu/Pod/Classes/SideMenuTransition.swift": [529737873, 0]
+  "/Users/sijo/Desktop/test2/Pods/SideMenu/Pod/Classes/UISideMenuNavigationController.swift": [529737873, 0]
+  "/Users/sijo/Desktop/test2/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift": [529737873, 0]

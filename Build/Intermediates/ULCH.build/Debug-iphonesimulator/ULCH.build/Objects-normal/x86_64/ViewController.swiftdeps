@@ -6,28 +6,28 @@ provides-nominal:
 provides-member:
 - ["C4ULCH14ViewController", ""]
 provides-dynamic-lookup:
+- "selectedCountryLabel"
 - "viewDidLoad"
+- "loginBtn"
 - "identifier"
 - "didReceiveMemoryWarning"
-- "selectedCountryLabel"
-- "onLoginBtnClicked"
-- "loginBtn"
 - "onSignupBtnClicked"
 - "viewWillAppear"
+- "onLoginBtnClicked"
 - "countryPhoneCodePicker"
 - "signUpBtn"
 depends-top-level:
-- "AnyObject"
-- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "UIViewController"
 - "Bool"
 - !private "print"
-- "UILabel"
-- "CountryPicker"
-- !private "BooleanLiteralType"
 - "StringLiteralType"
-- "UIViewController"
-- "ViewController"
 - "UIButton"
+- "AnyObject"
+- "UILabel"
+- "AssignmentPrecedence"
+- "CountryPicker"
+- "ViewController"
 depends-member:
 - ["Ps9AnyObject", "countryPhoneCodePicker"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
@@ -81,14 +81,12 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "pushViewController"]
 - ["Ps28CustomDebugStringConvertible", "selectedCountryLabel"]
 - ["Ps28CustomDebugStringConvertible", "signUpBtn"]
-- ["Ps28CustomDebugStringConvertible", "some"]
 - !private ["Ps28CustomDebugStringConvertible", "storyboard"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - ["Ps17CustomReflectable", "init"]
-- ["Ps17CustomReflectable", "some"]
 - ["Ps23CustomStringConvertible", "countryPhoneCodePicker"]
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps23CustomStringConvertible", "identifier"]
@@ -126,7 +124,6 @@ depends-member:
 - ["Ps9Equatable", "viewWillAppear"]
 - ["Ps9Equatable", ""]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
-- ["Ps23ExpressibleByNilLiteral", "some"]
 - ["Ps32ExpressibleByStringInterpolation", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
@@ -231,7 +228,6 @@ depends-member:
 - ["PSo14NSSecureCoding", "init"]
 - ["CSo8NSString", "init"]
 - ["Sq", "deinit"]
-- ["Sq", "some"]
 - ["SS", "deinit"]
 - ["SS", "init"]
 - ["Ps16TextOutputStream", "init"]
@@ -442,7 +438,6 @@ depends-nominal:
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
-- "Ps23ExpressibleByNilLiteral"
 - "Ps32ExpressibleByStringInterpolation"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
@@ -483,57 +478,58 @@ depends-nominal:
 - "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH-Bridging-Header.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/PhoneNumbers/NBPhoneNumberUtil.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Firebase/Core/Sources/module.modulemap"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/PhoneNumbers/NBPhoneNumberDefines.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFNetworking.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLRequestSerialization.h"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLResponseSerialization.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFSecurityPolicy.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFNetworkReachabilityManager.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLConnectionOperation.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFHTTPRequestOperation.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFHTTPRequestOperationManager.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLSessionManager.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFHTTPSessionManager.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/NetworkConnectivity/ULConnectivity.h"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRApp.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Firebase/Core/Sources/Firebase.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/sijo/Desktop/test2/ULCH-Bridging-Header.h"
+- "/Users/sijo/Desktop/test2/ULCH/PhoneNumbers/NBPhoneNumberUtil.h"
+- "/Users/sijo/Desktop/test2/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/sijo/Desktop/test2/ULCH/PhoneNumbers/NBPhoneNumberDefines.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFNetworking.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFURLRequestSerialization.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFSecurityPolicy.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFURLConnectionOperation.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFHTTPRequestOperation.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFURLSessionManager.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/sijo/Desktop/test2/ULCH/NetworkConnectivity/ULConnectivity.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/test2/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
 interface-hash: "00a591f865fc60b0c40c03102167424e"

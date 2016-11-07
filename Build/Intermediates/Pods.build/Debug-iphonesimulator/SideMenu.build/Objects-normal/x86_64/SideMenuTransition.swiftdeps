@@ -6,78 +6,78 @@ provides-nominal:
 provides-member:
 - ["C8SideMenu18SideMenuTransition", ""]
 provides-dynamic-lookup:
-- "hideMenuStart"
-- "handleHideMenuTap"
-- "presentMenuComplete"
-- "animationController"
-- "animationController"
-- "transitionDuration"
-- "presentMenuStart"
-- "tapView"
-- "handleHideMenuPan"
-- "applicationDidEnterBackgroundNotification"
-- "handlePresentMenuLeftScreenEdge"
-- "singleton"
-- "animateTransition"
-- "handlePresentMenuRightScreenEdge"
-- "interactionControllerForDismissal"
-- "presentDirection"
-- "interactionControllerForPresentation"
-- "hideMenuComplete"
 - "handlePresentMenuPan"
+- "animationController"
+- "animationController"
+- "presentMenuStart"
+- "handleHideMenuPan"
+- "singleton"
+- "presentDirection"
+- "handlePresentMenuLeftScreenEdge"
+- "applicationDidEnterBackgroundNotification"
+- "handleHideMenuTap"
 - "statusBarView"
+- "presentMenuComplete"
+- "interactionControllerForPresentation"
+- "transitionDuration"
+- "hideMenuComplete"
+- "interactionControllerForDismissal"
+- "animateTransition"
+- "hideMenuStart"
+- "handlePresentMenuRightScreenEdge"
+- "tapView"
 depends-top-level:
-- !private "FLT_EPSILON"
-- !private "=="
-- "AssignmentPrecedence"
-- !private "Array"
-- "CastingPrecedence"
-- !private "min"
-- !private "<"
-- !private "CGRect"
-- !private "-"
-- !private "NSNotification"
-- !private "max"
-- !private ">="
-- "TimeInterval"
-- !private "||"
-- !private "CGAffineTransform"
+- "UIViewControllerAnimatedTransitioning"
 - !private "SideMenuManager"
-- "TernaryPrecedence"
-- !private "!"
-- !private "&&"
-- !private "/"
-- !private "UIViewAnimationOptions"
-- !private "UIMotionEffectGroup"
-- "UIView"
-- "UIRectEdge"
-- "BooleanLiteralType"
-- !private "StringLiteralType"
-- !private "NotificationCenter"
-- !private "UIApplication"
-- !private "UITabBarController"
-- "UIViewController"
-- "UIViewControllerTransitioningDelegate"
-- "UITapGestureRecognizer"
-- !private "ProcessInfo"
-- !private "UITransitionContextViewControllerKey"
-- !private ">"
-- !private "CGFloat"
-- "UIViewControllerInteractiveTransitioning"
-- "SideMenuTransition"
-- "CGSize"
-- !private "Void"
+- "AssignmentPrecedence"
 - "UIPanGestureRecognizer"
-- "UIScreenEdgePanGestureRecognizer"
-- !private "!="
-- !private "*"
-- "UIViewControllerContextTransitioning"
-- !private "UINavigationController"
+- "CastingPrecedence"
+- !private "=="
+- !private "!"
+- !private "CGAffineTransform"
+- "CGSize"
 - !private "abs"
+- !private "NSNotification"
 - !private "UIInterpolatingMotionEffect"
 - !private "UIColor"
-- "UIViewControllerAnimatedTransitioning"
+- "UIViewControllerContextTransitioning"
+- "UIRectEdge"
+- !private "<"
+- "TernaryPrecedence"
+- !private "UITransitionContextViewControllerKey"
+- "UIViewControllerInteractiveTransitioning"
+- !private "Void"
 - "UIPercentDrivenInteractiveTransition"
+- !private "*"
+- "UITapGestureRecognizer"
+- !private "UITabBarController"
+- "BooleanLiteralType"
+- !private "!="
+- !private "UINavigationController"
+- !private "CGRect"
+- !private "FLT_EPSILON"
+- !private "StringLiteralType"
+- "SideMenuTransition"
+- !private "/"
+- "UIViewControllerTransitioningDelegate"
+- !private "&&"
+- !private "Array"
+- !private "UIViewAnimationOptions"
+- !private "||"
+- !private "CGFloat"
+- "UIView"
+- "UIViewController"
+- !private "min"
+- !private "max"
+- !private "UIApplication"
+- "TimeInterval"
+- "UIScreenEdgePanGestureRecognizer"
+- !private ">"
+- !private ">="
+- !private "UIMotionEffectGroup"
+- !private "NotificationCenter"
+- !private "-"
+- !private "ProcessInfo"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "CGAffineTransform"]
@@ -506,7 +506,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "shared"]
 - ["Ps28CustomDebugStringConvertible", "singleton"]
 - !private ["Ps28CustomDebugStringConvertible", "size"]
-- ["Ps28CustomDebugStringConvertible", "some"]
 - !private ["Ps28CustomDebugStringConvertible", "state"]
 - !private ["Ps28CustomDebugStringConvertible", "statusBarFrame"]
 - ["Ps28CustomDebugStringConvertible", "statusBarView"]
@@ -540,7 +539,6 @@ depends-member:
 - !private ["Ps17CustomReflectable", "origin"]
 - !private ["Ps17CustomReflectable", "removeAll"]
 - !private ["Ps17CustomReflectable", "size"]
-- ["Ps17CustomReflectable", "some"]
 - !private ["Ps17CustomReflectable", "width"]
 - !private ["Ps17CustomReflectable", "x"]
 - !private ["Ps17CustomReflectable", "y"]
@@ -835,7 +833,6 @@ depends-member:
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps25ExpressibleByFloatLiteral", "init"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "init"]
-- ["Ps23ExpressibleByNilLiteral", "some"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
@@ -1331,7 +1328,6 @@ depends-member:
 - ["Ps9OptionSet", "left"]
 - !private ["Ps9OptionSet", "right"]
 - ["Sq", "deinit"]
-- ["Sq", "some"]
 - ["CSo11ProcessInfo", "deinit"]
 - !private ["CSo11ProcessInfo", "init"]
 - !private ["CSo11ProcessInfo", "operatingSystemVersion"]
@@ -2242,9 +2238,16 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "UIApplicationDidEnterBackground"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "from"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- !private ["Ps21_ObjectiveCBridgeable", "identity"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "origin"]
 - !private ["Ps21_ObjectiveCBridgeable", "removeAll"]
+- !private ["Ps21_ObjectiveCBridgeable", "size"]
 - !private ["Ps21_ObjectiveCBridgeable", "to"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
 - !private ["Vs26_OptionalNilComparisonType", "deinit"]
 - !private ["Ps11_Strideable", "init"]
 - !private ["Ps20_SwiftNewtypeWrapper", "UIApplicationDidEnterBackground"]
@@ -2272,7 +2275,7 @@ depends-nominal:
 - !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
-- "Ps17CustomReflectable"
+- !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Sd"
 - "Ps9Equatable"
@@ -2281,7 +2284,6 @@ depends-nominal:
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps25ExpressibleByFloatLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
-- "Ps23ExpressibleByNilLiteral"
 - !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
@@ -2388,15 +2390,16 @@ depends-nominal:
 - !private "Ps20_SwiftNewtypeWrapper"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Target Support Files/SideMenu/SideMenu-umbrella.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/Pods.build/Debug-iphonesimulator/SideMenu.build/unextended-module.modulemap"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/sijo/Desktop/test2/Pods/Target Support Files/SideMenu/SideMenu-umbrella.h"
+- "/Users/sijo/Desktop/test2/Build/Intermediates/Pods.build/Debug-iphonesimulator/SideMenu.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 interface-hash: "547c24a3b43bc4717825bc6180cade9a"

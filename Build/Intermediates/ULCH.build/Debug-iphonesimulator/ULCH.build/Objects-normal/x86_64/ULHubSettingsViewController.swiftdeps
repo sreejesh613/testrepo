@@ -6,56 +6,60 @@ provides-nominal:
 provides-member:
 - ["C4ULCH27ULHubSettingsViewController", ""]
 provides-dynamic-lookup:
-- "hubsettingsLabels"
-- "hubSettingsScrollView"
 - "onBackBtnClick"
-- "textFieldShouldReturn"
-- "textField"
-- "hubSettingsTableView"
-- "viewDidLoad"
-- "identifier"
-- "numberOfSections"
-- "didReceiveMemoryWarning"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "cellText"
 - "textFieldDidEndEditing"
+- "numberOfSections"
+- "hubsettingsLabels"
+- "onDeRegisterBtnClick"
+- "hubSettingsTableView"
+- "didReceiveMemoryWarning"
+- "textFieldShouldReturn"
+- "cellText"
+- "hubSettingsScrollView"
+- "textField"
+- "identifier"
+- "viewDidLoad"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
 depends-top-level:
-- !private "print"
-- "IndexPath"
+- "UITextField"
+- !private "ULHubSettingsTableViewCell"
 - "CGFloat"
+- "Int"
+- "UITableView"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
 - !private "CGSize"
+- !private "=="
+- !private "ULAlertDisplay"
+- "StringLiteralType"
+- !private "print"
+- "UIScrollViewDelegate"
+- "String"
+- !private "UITableViewCellSelectionStyle"
+- "UITextFieldDelegate"
+- "AnyObject"
+- "UITableViewDelegate"
+- !private "UIStoryboard"
+- !private "ULHubTextfieldTableViewCell"
+- "UITableViewDataSource"
 - "ULHubSettingsViewController"
 - !private "NSString"
-- "Int"
 - "UIScrollView"
-- "AssignmentPrecedence"
-- "CastingPrecedence"
-- !private "=="
-- !private "ULHubSettingsTableViewCell"
-- "UITableViewCell"
-- "UIViewController"
-- "UITextField"
-- !private "!="
-- !private "ULHubTextfieldTableViewCell"
-- "UIScrollViewDelegate"
-- "StringLiteralType"
-- "UITableViewDelegate"
-- "UITextFieldDelegate"
-- "UITableView"
-- "AnyObject"
 - "NSRange"
-- "UITableViewDataSource"
-- !private "UITableViewCellSelectionStyle"
+- "IndexPath"
+- "UITableViewCell"
 - "Bool"
 - !private "BooleanLiteralType"
-- "String"
+- !private "!="
+- "UIViewController"
 depends-member:
 - !private ["Ps9AnyObject", "CGSize"]
 - ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "UIStoryboard"]
 - !private ["Ps9AnyObject", "UITableViewCellSelectionStyle"]
 - !private ["Ps9AnyObject", "ULHubSettingsTableViewCell"]
 - ["Ps9AnyObject", "cellText"]
@@ -79,6 +83,7 @@ depends-member:
 - ["Ps9AnyObject", "numberOfSections"]
 - ["Ps9AnyObject", "numberOfSectionsInTableView"]
 - ["Ps9AnyObject", "onBackBtnClick"]
+- ["Ps9AnyObject", "onDeRegisterBtnClick"]
 - !private ["Ps9AnyObject", "popViewController"]
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "pushViewController"]
@@ -174,6 +179,7 @@ depends-member:
 - !private ["Ps7CVarArg", "Stride"]
 - ["Ps7CVarArg", "String"]
 - !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "UIStoryboard"]
 - !private ["Ps7CVarArg", "UITableViewCellSelectionStyle"]
 - !private ["Ps7CVarArg", "ULHubSettingsTableViewCell"]
 - !private ["Ps7CVarArg", "_DisabledRangeIndex"]
@@ -200,6 +206,7 @@ depends-member:
 - ["Ps7CVarArg", "numberOfSections"]
 - ["Ps7CVarArg", "numberOfSectionsInTableView"]
 - ["Ps7CVarArg", "onBackBtnClick"]
+- ["Ps7CVarArg", "onDeRegisterBtnClick"]
 - !private ["Ps7CVarArg", "popViewController"]
 - !private ["Ps7CVarArg", "print"]
 - !private ["Ps7CVarArg", "pushViewController"]
@@ -259,6 +266,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
 - ["Ps28CustomDebugStringConvertible", "String"]
 - !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UIStoryboard"]
 - !private ["Ps28CustomDebugStringConvertible", "UITableViewCellSelectionStyle"]
 - !private ["Ps28CustomDebugStringConvertible", "ULHubSettingsTableViewCell"]
 - !private ["Ps28CustomDebugStringConvertible", "_Element"]
@@ -284,6 +292,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "numberOfSections"]
 - ["Ps28CustomDebugStringConvertible", "numberOfSectionsInTableView"]
 - ["Ps28CustomDebugStringConvertible", "onBackBtnClick"]
+- ["Ps28CustomDebugStringConvertible", "onDeRegisterBtnClick"]
 - !private ["Ps28CustomDebugStringConvertible", "popViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
 - !private ["Ps28CustomDebugStringConvertible", "pushViewController"]
@@ -307,7 +316,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "sectionIndexTitlesForTableView"]
 - !private ["Ps28CustomDebugStringConvertible", "selectionStyle"]
 - !private ["Ps28CustomDebugStringConvertible", "settingsLabel"]
-- ["Ps28CustomDebugStringConvertible", "some"]
 - !private ["Ps28CustomDebugStringConvertible", "storyboard"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - ["Ps28CustomDebugStringConvertible", "tableView"]
@@ -342,7 +350,6 @@ depends-member:
 - ["Ps17CustomReflectable", "init"]
 - !private ["Ps17CustomReflectable", "row"]
 - !private ["Ps17CustomReflectable", "section"]
-- ["Ps17CustomReflectable", "some"]
 - !private ["Ps17CustomReflectable", "subscript"]
 - !private ["Ps23CustomStringConvertible", "CGSize"]
 - !private ["Ps23CustomStringConvertible", "Index"]
@@ -351,6 +358,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "Stride"]
 - ["Ps23CustomStringConvertible", "String"]
 - !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UIStoryboard"]
 - !private ["Ps23CustomStringConvertible", "UITableViewCellSelectionStyle"]
 - !private ["Ps23CustomStringConvertible", "ULHubSettingsTableViewCell"]
 - !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
@@ -378,6 +386,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "numberOfSections"]
 - ["Ps23CustomStringConvertible", "numberOfSectionsInTableView"]
 - ["Ps23CustomStringConvertible", "onBackBtnClick"]
+- ["Ps23CustomStringConvertible", "onDeRegisterBtnClick"]
 - !private ["Ps23CustomStringConvertible", "popViewController"]
 - !private ["Ps23CustomStringConvertible", "print"]
 - !private ["Ps23CustomStringConvertible", "pushViewController"]
@@ -432,6 +441,7 @@ depends-member:
 - !private ["Ps9Equatable", "IntegerLiteralType"]
 - !private ["Ps9Equatable", "Stride"]
 - ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "UIStoryboard"]
 - !private ["Ps9Equatable", "UITableViewCellSelectionStyle"]
 - !private ["Ps9Equatable", "ULHubSettingsTableViewCell"]
 - !private ["Ps9Equatable", "_DisabledRangeIndex"]
@@ -458,6 +468,7 @@ depends-member:
 - ["Ps9Equatable", "numberOfSections"]
 - ["Ps9Equatable", "numberOfSectionsInTableView"]
 - ["Ps9Equatable", "onBackBtnClick"]
+- ["Ps9Equatable", "onDeRegisterBtnClick"]
 - !private ["Ps9Equatable", "popViewController"]
 - !private ["Ps9Equatable", "print"]
 - !private ["Ps9Equatable", "pushViewController"]
@@ -510,7 +521,6 @@ depends-member:
 - !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
-- ["Ps23ExpressibleByNilLiteral", "some"]
 - ["Ps32ExpressibleByStringInterpolation", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "replacingCharacters"]
@@ -521,6 +531,7 @@ depends-member:
 - !private ["Ps8Hashable", "IntegerLiteralType"]
 - !private ["Ps8Hashable", "Stride"]
 - ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "UIStoryboard"]
 - !private ["Ps8Hashable", "UITableViewCellSelectionStyle"]
 - !private ["Ps8Hashable", "ULHubSettingsTableViewCell"]
 - !private ["Ps8Hashable", "_DisabledRangeIndex"]
@@ -547,6 +558,7 @@ depends-member:
 - ["Ps8Hashable", "numberOfSections"]
 - ["Ps8Hashable", "numberOfSectionsInTableView"]
 - ["Ps8Hashable", "onBackBtnClick"]
+- ["Ps8Hashable", "onDeRegisterBtnClick"]
 - !private ["Ps8Hashable", "popViewController"]
 - !private ["Ps8Hashable", "print"]
 - !private ["Ps8Hashable", "pushViewController"]
@@ -650,6 +662,7 @@ depends-member:
 - ["CSo7NSCoder", "deinit"]
 - !private ["PSo8NSCoding", "CGSize"]
 - ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "UIStoryboard"]
 - !private ["PSo8NSCoding", "UITableViewCellSelectionStyle"]
 - !private ["PSo8NSCoding", "ULHubSettingsTableViewCell"]
 - ["PSo8NSCoding", "cellText"]
@@ -672,6 +685,7 @@ depends-member:
 - ["PSo8NSCoding", "numberOfSections"]
 - ["PSo8NSCoding", "numberOfSectionsInTableView"]
 - ["PSo8NSCoding", "onBackBtnClick"]
+- ["PSo8NSCoding", "onDeRegisterBtnClick"]
 - !private ["PSo8NSCoding", "popViewController"]
 - !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "pushViewController"]
@@ -712,6 +726,7 @@ depends-member:
 - !private ["PSo9NSCopying", "replacingCharacters"]
 - !private ["PSo26NSExtensionRequestHandling", "CGSize"]
 - ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "UIStoryboard"]
 - !private ["PSo26NSExtensionRequestHandling", "UITableViewCellSelectionStyle"]
 - !private ["PSo26NSExtensionRequestHandling", "ULHubSettingsTableViewCell"]
 - ["PSo26NSExtensionRequestHandling", "cellText"]
@@ -729,6 +744,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "numberOfSections"]
 - ["PSo26NSExtensionRequestHandling", "numberOfSectionsInTableView"]
 - ["PSo26NSExtensionRequestHandling", "onBackBtnClick"]
+- ["PSo26NSExtensionRequestHandling", "onDeRegisterBtnClick"]
 - !private ["PSo26NSExtensionRequestHandling", "popViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - !private ["PSo26NSExtensionRequestHandling", "pushViewController"]
@@ -771,10 +787,12 @@ depends-member:
 - !private ["CSo8NSObject", "NSString"]
 - ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "UIScrollView"]
+- !private ["CSo8NSObject", "UIStoryboard"]
 - ["CSo8NSObject", "UITableView"]
 - ["CSo8NSObject", "UITableViewCell"]
 - !private ["CSo8NSObject", "UITableViewCellSelectionStyle"]
 - ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "ULAlertDisplay"]
 - !private ["CSo8NSObject", "ULHubSettingsTableViewCell"]
 - !private ["CSo8NSObject", "ULHubTextfieldTableViewCell"]
 - ["CSo8NSObject", "cellText"]
@@ -798,6 +816,7 @@ depends-member:
 - ["CSo8NSObject", "numberOfSections"]
 - ["CSo8NSObject", "numberOfSectionsInTableView"]
 - ["CSo8NSObject", "onBackBtnClick"]
+- ["CSo8NSObject", "onDeRegisterBtnClick"]
 - !private ["CSo8NSObject", "popViewController"]
 - !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "pushViewController"]
@@ -835,6 +854,7 @@ depends-member:
 - ["CSo8NSObject", "viewForZoomingInScrollView"]
 - !private ["PSo16NSObjectProtocol", "CGSize"]
 - ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "UIStoryboard"]
 - !private ["PSo16NSObjectProtocol", "UITableViewCellSelectionStyle"]
 - !private ["PSo16NSObjectProtocol", "ULHubSettingsTableViewCell"]
 - ["PSo16NSObjectProtocol", "cellText"]
@@ -858,6 +878,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "numberOfSections"]
 - ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
 - ["PSo16NSObjectProtocol", "onBackBtnClick"]
+- ["PSo16NSObjectProtocol", "onDeRegisterBtnClick"]
 - !private ["PSo16NSObjectProtocol", "popViewController"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "pushViewController"]
@@ -900,7 +921,6 @@ depends-member:
 - ["CSo8NSString", "init"]
 - !private ["CSo8NSString", "replacingCharacters"]
 - ["Sq", "deinit"]
-- ["Sq", "some"]
 - !private ["Ps22RandomAccessCollection", "Index"]
 - !private ["Ps22RandomAccessCollection", "IndexDistance"]
 - !private ["Ps22RandomAccessCollection", "Indices"]
@@ -994,6 +1014,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "textFromTextfield"]
 - !private ["PSo21UIAppearanceContainer", "CGSize"]
 - ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "UIStoryboard"]
 - !private ["PSo21UIAppearanceContainer", "UITableViewCellSelectionStyle"]
 - !private ["PSo21UIAppearanceContainer", "ULHubSettingsTableViewCell"]
 - ["PSo21UIAppearanceContainer", "cellText"]
@@ -1016,6 +1037,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "numberOfSections"]
 - ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
 - ["PSo21UIAppearanceContainer", "onBackBtnClick"]
+- ["PSo21UIAppearanceContainer", "onDeRegisterBtnClick"]
 - !private ["PSo21UIAppearanceContainer", "popViewController"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "pushViewController"]
@@ -1053,6 +1075,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo18UIContentContainer", "CGSize"]
 - ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "UIStoryboard"]
 - !private ["PSo18UIContentContainer", "UITableViewCellSelectionStyle"]
 - !private ["PSo18UIContentContainer", "ULHubSettingsTableViewCell"]
 - ["PSo18UIContentContainer", "cellText"]
@@ -1070,6 +1093,7 @@ depends-member:
 - ["PSo18UIContentContainer", "numberOfSections"]
 - ["PSo18UIContentContainer", "numberOfSectionsInTableView"]
 - ["PSo18UIContentContainer", "onBackBtnClick"]
+- ["PSo18UIContentContainer", "onDeRegisterBtnClick"]
 - !private ["PSo18UIContentContainer", "popViewController"]
 - !private ["PSo18UIContentContainer", "print"]
 - !private ["PSo18UIContentContainer", "pushViewController"]
@@ -1128,6 +1152,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "textFromTextfield"]
 - !private ["PSo18UIFocusEnvironment", "CGSize"]
 - ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "UIStoryboard"]
 - !private ["PSo18UIFocusEnvironment", "UITableViewCellSelectionStyle"]
 - !private ["PSo18UIFocusEnvironment", "ULHubSettingsTableViewCell"]
 - ["PSo18UIFocusEnvironment", "cellText"]
@@ -1150,6 +1175,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "numberOfSections"]
 - ["PSo18UIFocusEnvironment", "numberOfSectionsInTableView"]
 - ["PSo18UIFocusEnvironment", "onBackBtnClick"]
+- ["PSo18UIFocusEnvironment", "onDeRegisterBtnClick"]
 - !private ["PSo18UIFocusEnvironment", "popViewController"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - !private ["PSo18UIFocusEnvironment", "pushViewController"]
@@ -1217,10 +1243,12 @@ depends-member:
 - !private ["CSo11UIResponder", "NSString"]
 - ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "UIScrollView"]
+- !private ["CSo11UIResponder", "UIStoryboard"]
 - ["CSo11UIResponder", "UITableView"]
 - ["CSo11UIResponder", "UITableViewCell"]
 - !private ["CSo11UIResponder", "UITableViewCellSelectionStyle"]
 - ["CSo11UIResponder", "UITextField"]
+- !private ["CSo11UIResponder", "ULAlertDisplay"]
 - !private ["CSo11UIResponder", "ULHubSettingsTableViewCell"]
 - !private ["CSo11UIResponder", "ULHubTextfieldTableViewCell"]
 - ["CSo11UIResponder", "cellText"]
@@ -1243,6 +1271,7 @@ depends-member:
 - ["CSo11UIResponder", "numberOfSections"]
 - ["CSo11UIResponder", "numberOfSectionsInTableView"]
 - ["CSo11UIResponder", "onBackBtnClick"]
+- ["CSo11UIResponder", "onDeRegisterBtnClick"]
 - !private ["CSo11UIResponder", "popViewController"]
 - !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "pushViewController"]
@@ -1279,6 +1308,7 @@ depends-member:
 - ["CSo11UIResponder", "viewForZoomingInScrollView"]
 - !private ["PSo30UIResponderStandardEditActions", "CGSize"]
 - ["PSo30UIResponderStandardEditActions", "String"]
+- !private ["PSo30UIResponderStandardEditActions", "UIStoryboard"]
 - !private ["PSo30UIResponderStandardEditActions", "UITableViewCellSelectionStyle"]
 - !private ["PSo30UIResponderStandardEditActions", "ULHubSettingsTableViewCell"]
 - ["PSo30UIResponderStandardEditActions", "cellText"]
@@ -1301,6 +1331,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "numberOfSections"]
 - ["PSo30UIResponderStandardEditActions", "numberOfSectionsInTableView"]
 - ["PSo30UIResponderStandardEditActions", "onBackBtnClick"]
+- ["PSo30UIResponderStandardEditActions", "onDeRegisterBtnClick"]
 - !private ["PSo30UIResponderStandardEditActions", "popViewController"]
 - !private ["PSo30UIResponderStandardEditActions", "print"]
 - !private ["PSo30UIResponderStandardEditActions", "pushViewController"]
@@ -1343,6 +1374,7 @@ depends-member:
 - !private ["CSo12UIScrollView", "isScrollEnabled"]
 - !private ["PSo20UIScrollViewDelegate", "CGSize"]
 - ["PSo20UIScrollViewDelegate", "String"]
+- !private ["PSo20UIScrollViewDelegate", "UIStoryboard"]
 - !private ["PSo20UIScrollViewDelegate", "UITableViewCellSelectionStyle"]
 - !private ["PSo20UIScrollViewDelegate", "ULHubSettingsTableViewCell"]
 - !private ["PSo20UIScrollViewDelegate", "dismiss"]
@@ -1383,6 +1415,7 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", ""]
 - !private ["PSo16UIStateRestoring", "CGSize"]
 - ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "UIStoryboard"]
 - !private ["PSo16UIStateRestoring", "UITableViewCellSelectionStyle"]
 - !private ["PSo16UIStateRestoring", "ULHubSettingsTableViewCell"]
 - ["PSo16UIStateRestoring", "cellText"]
@@ -1400,6 +1433,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "numberOfSections"]
 - ["PSo16UIStateRestoring", "numberOfSectionsInTableView"]
 - ["PSo16UIStateRestoring", "onBackBtnClick"]
+- ["PSo16UIStateRestoring", "onDeRegisterBtnClick"]
 - !private ["PSo16UIStateRestoring", "popViewController"]
 - !private ["PSo16UIStateRestoring", "print"]
 - !private ["PSo16UIStateRestoring", "pushViewController"]
@@ -1431,6 +1465,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "viewForZoomingInScrollView"]
 - ["PSo16UIStateRestoring", ""]
 - ["CSo12UIStoryboard", "deinit"]
+- !private ["CSo12UIStoryboard", "init"]
 - !private ["CSo12UIStoryboard", "instantiateViewController"]
 - !private ["CSo11UITableView", "dataSource"]
 - ["CSo11UITableView", "deinit"]
@@ -1445,6 +1480,7 @@ depends-member:
 - !private ["OSC29UITableViewCellSelectionStyle", "none"]
 - !private ["PSo21UITableViewDataSource", "CGSize"]
 - ["PSo21UITableViewDataSource", "String"]
+- !private ["PSo21UITableViewDataSource", "UIStoryboard"]
 - !private ["PSo21UITableViewDataSource", "UITableViewCellSelectionStyle"]
 - !private ["PSo21UITableViewDataSource", "ULHubSettingsTableViewCell"]
 - !private ["PSo21UITableViewDataSource", "dismiss"]
@@ -1485,6 +1521,7 @@ depends-member:
 - ["PSo21UITableViewDataSource", ""]
 - !private ["PSo19UITableViewDelegate", "CGSize"]
 - ["PSo19UITableViewDelegate", "String"]
+- !private ["PSo19UITableViewDelegate", "UIStoryboard"]
 - !private ["PSo19UITableViewDelegate", "UITableViewCellSelectionStyle"]
 - !private ["PSo19UITableViewDelegate", "ULHubSettingsTableViewCell"]
 - !private ["PSo19UITableViewDelegate", "dismiss"]
@@ -1528,6 +1565,7 @@ depends-member:
 - !private ["CSo11UITextField", "text"]
 - !private ["PSo19UITextFieldDelegate", "CGSize"]
 - ["PSo19UITextFieldDelegate", "String"]
+- !private ["PSo19UITextFieldDelegate", "UIStoryboard"]
 - !private ["PSo19UITextFieldDelegate", "UITableViewCellSelectionStyle"]
 - !private ["PSo19UITextFieldDelegate", "ULHubSettingsTableViewCell"]
 - !private ["PSo19UITextFieldDelegate", "dismiss"]
@@ -1572,6 +1610,7 @@ depends-member:
 - !private ["PSo17UITextInputTraits", "text"]
 - !private ["PSo18UITraitEnvironment", "CGSize"]
 - ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "UIStoryboard"]
 - !private ["PSo18UITraitEnvironment", "UITableViewCellSelectionStyle"]
 - !private ["PSo18UITraitEnvironment", "ULHubSettingsTableViewCell"]
 - ["PSo18UITraitEnvironment", "cellText"]
@@ -1594,6 +1633,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "numberOfSections"]
 - ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
 - ["PSo18UITraitEnvironment", "onBackBtnClick"]
+- ["PSo18UITraitEnvironment", "onDeRegisterBtnClick"]
 - !private ["PSo18UITraitEnvironment", "popViewController"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "pushViewController"]
@@ -1650,10 +1690,12 @@ depends-member:
 - !private ["CSo16UIViewController", "NSString"]
 - ["CSo16UIViewController", "String"]
 - ["CSo16UIViewController", "UIScrollView"]
+- !private ["CSo16UIViewController", "UIStoryboard"]
 - ["CSo16UIViewController", "UITableView"]
 - ["CSo16UIViewController", "UITableViewCell"]
 - !private ["CSo16UIViewController", "UITableViewCellSelectionStyle"]
 - ["CSo16UIViewController", "UITextField"]
+- !private ["CSo16UIViewController", "ULAlertDisplay"]
 - !private ["CSo16UIViewController", "ULHubSettingsTableViewCell"]
 - !private ["CSo16UIViewController", "ULHubTextfieldTableViewCell"]
 - ["CSo16UIViewController", "cellText"]
@@ -1672,6 +1714,7 @@ depends-member:
 - ["CSo16UIViewController", "numberOfSections"]
 - ["CSo16UIViewController", "numberOfSectionsInTableView"]
 - ["CSo16UIViewController", "onBackBtnClick"]
+- ["CSo16UIViewController", "onDeRegisterBtnClick"]
 - !private ["CSo16UIViewController", "popViewController"]
 - !private ["CSo16UIViewController", "print"]
 - !private ["CSo16UIViewController", "pushViewController"]
@@ -1707,6 +1750,7 @@ depends-member:
 - !private ["Vs6UInt32", "deinit"]
 - !private ["Vs6UInt64", "deinit"]
 - !private ["Vs5UInt8", "deinit"]
+- ["C4ULCH14ULAlertDisplay", "deinit"]
 - ["C4ULCH26ULHubSettingsTableViewCell", "deinit"]
 - !private ["C4ULCH26ULHubSettingsTableViewCell", "identifier"]
 - !private ["C4ULCH26ULHubSettingsTableViewCell", "selectionStyle"]
@@ -1721,10 +1765,12 @@ depends-member:
 - !private ["C4ULCH27ULHubSettingsViewController", "NSString"]
 - ["C4ULCH27ULHubSettingsViewController", "String"]
 - ["C4ULCH27ULHubSettingsViewController", "UIScrollView"]
+- !private ["C4ULCH27ULHubSettingsViewController", "UIStoryboard"]
 - ["C4ULCH27ULHubSettingsViewController", "UITableView"]
 - ["C4ULCH27ULHubSettingsViewController", "UITableViewCell"]
 - !private ["C4ULCH27ULHubSettingsViewController", "UITableViewCellSelectionStyle"]
 - ["C4ULCH27ULHubSettingsViewController", "UITextField"]
+- !private ["C4ULCH27ULHubSettingsViewController", "ULAlertDisplay"]
 - !private ["C4ULCH27ULHubSettingsViewController", "ULHubSettingsTableViewCell"]
 - !private ["C4ULCH27ULHubSettingsViewController", "ULHubTextfieldTableViewCell"]
 - ["C4ULCH27ULHubSettingsViewController", "cellText"]
@@ -1742,6 +1788,7 @@ depends-member:
 - ["C4ULCH27ULHubSettingsViewController", "numberOfSections"]
 - ["C4ULCH27ULHubSettingsViewController", "numberOfSectionsInTableView"]
 - ["C4ULCH27ULHubSettingsViewController", "onBackBtnClick"]
+- ["C4ULCH27ULHubSettingsViewController", "onDeRegisterBtnClick"]
 - !private ["C4ULCH27ULHubSettingsViewController", "print"]
 - ["C4ULCH27ULHubSettingsViewController", "scrollViewDidEndDecelerating"]
 - ["C4ULCH27ULHubSettingsViewController", "scrollViewDidEndDragging"]
@@ -1809,6 +1856,7 @@ depends-member:
 - !private ["Ps9_Hashable", "IntegerLiteralType"]
 - !private ["Ps9_Hashable", "Stride"]
 - ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "UIStoryboard"]
 - !private ["Ps9_Hashable", "UITableViewCellSelectionStyle"]
 - !private ["Ps9_Hashable", "ULHubSettingsTableViewCell"]
 - !private ["Ps9_Hashable", "_DisabledRangeIndex"]
@@ -1835,6 +1883,7 @@ depends-member:
 - ["Ps9_Hashable", "numberOfSections"]
 - ["Ps9_Hashable", "numberOfSectionsInTableView"]
 - ["Ps9_Hashable", "onBackBtnClick"]
+- ["Ps9_Hashable", "onDeRegisterBtnClick"]
 - !private ["Ps9_Hashable", "popViewController"]
 - !private ["Ps9_Hashable", "print"]
 - !private ["Ps9_Hashable", "pushViewController"]
@@ -1930,7 +1979,6 @@ depends-nominal:
 - !private "Ps27ExpressibleByBooleanLiteral"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
-- "Ps23ExpressibleByNilLiteral"
 - "Ps32ExpressibleByStringInterpolation"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
@@ -2015,6 +2063,7 @@ depends-nominal:
 - !private "Vs6UInt32"
 - !private "Vs6UInt64"
 - !private "Vs5UInt8"
+- "C4ULCH14ULAlertDisplay"
 - "C4ULCH26ULHubSettingsTableViewCell"
 - "C4ULCH27ULHubSettingsViewController"
 - "C4ULCH27ULHubTextfieldTableViewCell"
@@ -2040,57 +2089,58 @@ depends-nominal:
 - !private "Ps11_Strideable"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH-Bridging-Header.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/PhoneNumbers/NBPhoneNumberUtil.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Firebase/Core/Sources/module.modulemap"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/PhoneNumbers/NBPhoneNumberDefines.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFNetworking.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLRequestSerialization.h"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLResponseSerialization.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFSecurityPolicy.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFNetworkReachabilityManager.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLConnectionOperation.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFHTTPRequestOperation.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFHTTPRequestOperationManager.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLSessionManager.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFHTTPSessionManager.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/NetworkConnectivity/ULConnectivity.h"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRApp.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Firebase/Core/Sources/Firebase.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
-interface-hash: "b43b8117051e4b73c6a7da49802c74a0"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/sijo/Desktop/test2/ULCH-Bridging-Header.h"
+- "/Users/sijo/Desktop/test2/ULCH/PhoneNumbers/NBPhoneNumberUtil.h"
+- "/Users/sijo/Desktop/test2/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/sijo/Desktop/test2/ULCH/PhoneNumbers/NBPhoneNumberDefines.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFNetworking.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFURLRequestSerialization.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFSecurityPolicy.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFURLConnectionOperation.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFHTTPRequestOperation.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFURLSessionManager.h"
+- "/Users/sijo/Desktop/test2/ULCH/Networks/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/sijo/Desktop/test2/ULCH/NetworkConnectivity/ULConnectivity.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/sijo/Desktop/test2/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/test2/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
+interface-hash: "32fb1d9e8a3e6f3a2fdd4ad69ad97a95"

@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules'
+    'name': '/Users/sijo/Desktop/test2/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/Pods.build/Debug-iphonesimulator/SideMenu.build/unextended-module.modulemap',
+      'external-contents': '/Users/sijo/Desktop/test2/Build/Intermediates/Pods.build/Debug-iphonesimulator/SideMenu.build/unextended-module.modulemap',
     }]
   }]
 }

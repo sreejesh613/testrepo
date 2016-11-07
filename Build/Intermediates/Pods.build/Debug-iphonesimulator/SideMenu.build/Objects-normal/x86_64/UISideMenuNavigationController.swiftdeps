@@ -6,43 +6,43 @@ provides-nominal:
 provides-member:
 - ["C8SideMenu30UISideMenuNavigationController", ""]
 provides-dynamic-lookup:
-- "viewDidDisappear"
-- "viewDidAppear"
-- "prepare"
-- "pushViewController"
-- "originalMenuBackgroundColor"
-- "awakeFromNib"
 - "viewDidLoad"
+- "viewDidDisappear"
+- "awakeFromNib"
+- "pushViewController"
+- "prepare"
+- "viewDidAppear"
 - "leftSide"
 - "shouldPerformSegue"
 - "viewWillTransition"
 - "viewWillDisappear"
+- "originalMenuBackgroundColor"
 depends-top-level:
-- "BooleanLiteralType"
-- "UINavigationController"
-- "Bool"
-- !private "!="
-- "UIViewControllerTransitionCoordinator"
-- "UISideMenuNavigationController"
-- "TernaryPrecedence"
-- "CGSize"
-- "CastingPrecedence"
-- "AssignmentPrecedence"
-- !private "=="
-- !private "CATransaction"
-- "UIStoryboardSegue"
-- !private "StringLiteralType"
-- !private "print"
-- "String"
-- "UIColor"
-- "UIViewController"
-- !private "&&"
-- !private "SideMenuManager"
 - !private "SideMenuTransition"
-- !private "Void"
-- !private "UIView"
+- "UISideMenuNavigationController"
+- !private "&&"
 - !private "!"
+- !private "UIView"
+- "TernaryPrecedence"
+- !private "CATransaction"
+- "CastingPrecedence"
+- "Bool"
+- "AssignmentPrecedence"
+- !private "!="
+- !private "=="
+- "UINavigationController"
+- !private "SideMenuManager"
+- !private "StringLiteralType"
 - !private ">"
+- !private "print"
+- "UIStoryboardSegue"
+- !private "Void"
+- "UIViewController"
+- "UIViewControllerTransitionCoordinator"
+- "UIColor"
+- "CGSize"
+- "BooleanLiteralType"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "CATransaction"]
 - !private ["Ps9AnyObject", "SideMenuManager"]
@@ -222,7 +222,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "pushViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "setCompletionBlock"]
 - ["Ps28CustomDebugStringConvertible", "shouldPerformSegue"]
-- ["Ps28CustomDebugStringConvertible", "some"]
 - !private ["Ps28CustomDebugStringConvertible", "statusBarView"]
 - !private ["Ps28CustomDebugStringConvertible", "superview"]
 - !private ["Ps28CustomDebugStringConvertible", "tapView"]
@@ -245,7 +244,6 @@ depends-member:
 - !private ["Ps17CustomReflectable", "count"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps17CustomReflectable", "last"]
-- ["Ps17CustomReflectable", "some"]
 - !private ["Ps23CustomStringConvertible", "CATransaction"]
 - !private ["Ps23CustomStringConvertible", "IndexDistance"]
 - !private ["Ps23CustomStringConvertible", "Iterator"]
@@ -369,7 +367,6 @@ depends-member:
 - !private ["Ps25ExpressibleByArrayLiteral", "left"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
-- ["Ps23ExpressibleByNilLiteral", "some"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
@@ -639,7 +636,6 @@ depends-member:
 - !private ["Ps9OptionSet", "RawValue"]
 - !private ["Ps9OptionSet", "left"]
 - ["Sq", "deinit"]
-- ["Sq", "some"]
 - !private ["Ps22RandomAccessCollection", "IndexDistance"]
 - !private ["Ps22RandomAccessCollection", "Iterator"]
 - !private ["Ps22RandomAccessCollection", "_Element"]
@@ -1200,13 +1196,12 @@ depends-nominal:
 - !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - !private "Ps29CustomPlaygroundQuickLookable"
-- "Ps17CustomReflectable"
+- !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
 - !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
-- "Ps23ExpressibleByNilLiteral"
 - !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
@@ -1282,15 +1277,16 @@ depends-nominal:
 - !private "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Target Support Files/SideMenu/SideMenu-umbrella.h"
-- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/Pods.build/Debug-iphonesimulator/SideMenu.build/unextended-module.modulemap"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/sijo/Desktop/test2/Pods/Target Support Files/SideMenu/SideMenu-umbrella.h"
+- "/Users/sijo/Desktop/test2/Build/Intermediates/Pods.build/Debug-iphonesimulator/SideMenu.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 interface-hash: "218db2268a332cf20c5b784d3ca784cf"
