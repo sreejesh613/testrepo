@@ -1,0 +1,277 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C4ULCH10HubDetails", ""]
+- ["C4ULCH10HubDetails", "fetchRequest"]
+- ["C4ULCH10HubDetails", "adminIndicator"]
+- ["C4ULCH10HubDetails", "firmware"]
+- ["C4ULCH10HubDetails", "hubId"]
+- ["C4ULCH10HubDetails", "hubLoc"]
+- ["C4ULCH10HubDetails", "hubRegStatus"]
+- ["C4ULCH10HubDetails", "hubStatus"]
+- ["C4ULCH10HubDetails", "zWaveInd"]
+provides-dynamic-lookup:
+- "zWaveInd"
+- "hubRegStatus"
+- "hubLoc"
+- "adminIndicator"
+- "firmware"
+- "hubId"
+- "hubStatus"
+depends-top-level:
+- !private "StringLiteralType"
+- "NSFetchRequestResult"
+- "HubDetails"
+- "String"
+- "NSFetchRequest"
+- "CastingPrecedence"
+depends-member:
+- !private ["Ps9AnyObject", "NSFetchRequest"]
+- ["Ps9AnyObject", "adminIndicator"]
+- ["Ps9AnyObject", "fetchRequest"]
+- ["Ps9AnyObject", "firmware"]
+- ["Ps9AnyObject", "hubId"]
+- ["Ps9AnyObject", "hubLoc"]
+- ["Ps9AnyObject", "hubRegStatus"]
+- ["Ps9AnyObject", "hubStatus"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "zWaveInd"]
+- !private ["Ps7CVarArg", "NSFetchRequest"]
+- ["Ps7CVarArg", "adminIndicator"]
+- ["Ps7CVarArg", "fetchRequest"]
+- ["Ps7CVarArg", "firmware"]
+- ["Ps7CVarArg", "hubId"]
+- ["Ps7CVarArg", "hubLoc"]
+- ["Ps7CVarArg", "hubRegStatus"]
+- ["Ps7CVarArg", "hubStatus"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "zWaveInd"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFetchRequest"]
+- ["Ps28CustomDebugStringConvertible", "adminIndicator"]
+- ["Ps28CustomDebugStringConvertible", "fetchRequest"]
+- ["Ps28CustomDebugStringConvertible", "firmware"]
+- ["Ps28CustomDebugStringConvertible", "hubId"]
+- ["Ps28CustomDebugStringConvertible", "hubLoc"]
+- ["Ps28CustomDebugStringConvertible", "hubRegStatus"]
+- ["Ps28CustomDebugStringConvertible", "hubStatus"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "zWaveInd"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "NSFetchRequest"]
+- ["Ps23CustomStringConvertible", "adminIndicator"]
+- ["Ps23CustomStringConvertible", "fetchRequest"]
+- ["Ps23CustomStringConvertible", "firmware"]
+- ["Ps23CustomStringConvertible", "hubId"]
+- ["Ps23CustomStringConvertible", "hubLoc"]
+- ["Ps23CustomStringConvertible", "hubRegStatus"]
+- ["Ps23CustomStringConvertible", "hubStatus"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "zWaveInd"]
+- !private ["Ps9Equatable", "NSFetchRequest"]
+- ["Ps9Equatable", "adminIndicator"]
+- ["Ps9Equatable", "fetchRequest"]
+- ["Ps9Equatable", "firmware"]
+- ["Ps9Equatable", "hubId"]
+- ["Ps9Equatable", "hubLoc"]
+- ["Ps9Equatable", "hubRegStatus"]
+- ["Ps9Equatable", "hubStatus"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "zWaveInd"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NSFetchRequest"]
+- ["Ps8Hashable", "adminIndicator"]
+- ["Ps8Hashable", "fetchRequest"]
+- ["Ps8Hashable", "firmware"]
+- ["Ps8Hashable", "hubId"]
+- ["Ps8Hashable", "hubLoc"]
+- ["Ps8Hashable", "hubRegStatus"]
+- ["Ps8Hashable", "hubStatus"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "zWaveInd"]
+- !private ["C4ULCH10HubDetails", "HubDetails"]
+- ["C4ULCH10HubDetails", "NSFetchRequest"]
+- ["C4ULCH10HubDetails", "NSFetchRequestResult"]
+- ["C4ULCH10HubDetails", "String"]
+- ["C4ULCH10HubDetails", "adminIndicator"]
+- ["C4ULCH10HubDetails", "deinit"]
+- ["C4ULCH10HubDetails", "fetchRequest"]
+- ["C4ULCH10HubDetails", "firmware"]
+- ["C4ULCH10HubDetails", "hubId"]
+- ["C4ULCH10HubDetails", "hubLoc"]
+- ["C4ULCH10HubDetails", "hubRegStatus"]
+- ["C4ULCH10HubDetails", "hubStatus"]
+- ["C4ULCH10HubDetails", "zWaveInd"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- ["CSo14NSFetchRequest", "deinit"]
+- !private ["CSo14NSFetchRequest", "init"]
+- !private ["PSo20NSFetchRequestResult", "NSFetchRequest"]
+- ["PSo20NSFetchRequestResult", "adminIndicator"]
+- ["PSo20NSFetchRequestResult", "deinit"]
+- ["PSo20NSFetchRequestResult", "fetchRequest"]
+- ["PSo20NSFetchRequestResult", "firmware"]
+- ["PSo20NSFetchRequestResult", "hubId"]
+- ["PSo20NSFetchRequestResult", "hubLoc"]
+- ["PSo20NSFetchRequestResult", "hubRegStatus"]
+- ["PSo20NSFetchRequestResult", "hubStatus"]
+- ["PSo20NSFetchRequestResult", "zWaveInd"]
+- !private ["CSo15NSManagedObject", "HubDetails"]
+- ["CSo15NSManagedObject", "NSFetchRequest"]
+- ["CSo15NSManagedObject", "NSFetchRequestResult"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "adminIndicator"]
+- ["CSo15NSManagedObject", "fetchRequest"]
+- ["CSo15NSManagedObject", "firmware"]
+- ["CSo15NSManagedObject", "hubId"]
+- ["CSo15NSManagedObject", "hubLoc"]
+- ["CSo15NSManagedObject", "hubRegStatus"]
+- ["CSo15NSManagedObject", "hubStatus"]
+- ["CSo15NSManagedObject", "zWaveInd"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "HubDetails"]
+- ["CSo8NSObject", "NSFetchRequest"]
+- ["CSo8NSObject", "NSFetchRequestResult"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "adminIndicator"]
+- ["CSo8NSObject", "fetchRequest"]
+- ["CSo8NSObject", "firmware"]
+- ["CSo8NSObject", "hubId"]
+- ["CSo8NSObject", "hubLoc"]
+- ["CSo8NSObject", "hubRegStatus"]
+- ["CSo8NSObject", "hubStatus"]
+- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "zWaveInd"]
+- !private ["PSo16NSObjectProtocol", "NSFetchRequest"]
+- ["PSo16NSObjectProtocol", "adminIndicator"]
+- ["PSo16NSObjectProtocol", "fetchRequest"]
+- ["PSo16NSObjectProtocol", "firmware"]
+- ["PSo16NSObjectProtocol", "hubId"]
+- ["PSo16NSObjectProtocol", "hubLoc"]
+- ["PSo16NSObjectProtocol", "hubRegStatus"]
+- ["PSo16NSObjectProtocol", "hubStatus"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "zWaveInd"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "NSFetchRequest"]
+- ["Ps9_Hashable", "adminIndicator"]
+- ["Ps9_Hashable", "fetchRequest"]
+- ["Ps9_Hashable", "firmware"]
+- ["Ps9_Hashable", "hubId"]
+- ["Ps9_Hashable", "hubLoc"]
+- ["Ps9_Hashable", "hubRegStatus"]
+- ["Ps9_Hashable", "hubStatus"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "zWaveInd"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "C4ULCH10HubDetails"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo14NSFetchRequest"
+- "PSo20NSFetchRequestResult"
+- "CSo15NSManagedObject"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH-Bridging-Header.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/PhoneNumbers/NBPhoneNumberUtil.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/PhoneNumbers/NBPhoneNumberDefines.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFNetworking.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLRequestSerialization.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFSecurityPolicy.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLConnectionOperation.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFHTTPRequestOperation.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLSessionManager.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/NetworkConnectivity/ULConnectivity.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/arm64.swiftmodule"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Modules/module.modulemap"
+interface-hash: "b4c04aecc31e1ecee6874798c7537a21"

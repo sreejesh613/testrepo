@@ -1,0 +1,6 @@
+framework module Pods_ULCHTests {
+  umbrella header "Pods-ULCHTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

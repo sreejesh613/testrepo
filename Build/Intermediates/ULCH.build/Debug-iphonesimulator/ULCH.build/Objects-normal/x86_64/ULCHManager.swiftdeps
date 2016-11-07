@@ -1,0 +1,400 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ULCHManager"
+provides-nominal:
+- "C4ULCH11ULCHManager"
+provides-member:
+- ["C4ULCH11ULCHManager", ""]
+provides-dynamic-lookup:
+- "confirmUserRegistration"
+- "loginUser"
+- "registerUser"
+- "getHubPerUser"
+- "updateSensorDetails"
+- "getSensorDetailsByHubId"
+- "sharedInstance"
+- "resendOTP"
+depends-top-level:
+- !private "ULUrlManager"
+- "NSObject"
+- !private "CastingPrecedence"
+- !private "AssignmentPrecedence"
+- "String"
+- !private "Dictionary"
+- !private "StringLiteralType"
+- "ULCHManager"
+- "NSError"
+- !private "Void"
+- "AnyObject"
+- !private "ULRequestManager"
+depends-member:
+- ["CSo29AFHTTPRequestOperationManager", "deinit"]
+- !private ["CSo29AFHTTPRequestOperationManager", "get"]
+- !private ["CSo29AFHTTPRequestOperationManager", "post"]
+- !private ["CSo29AFHTTPRequestOperationManager", "put"]
+- !private ["Ps9AnyObject", "NSError"]
+- !private ["Ps9AnyObject", "ULCHManager"]
+- !private ["Ps9AnyObject", "ULRequestManager"]
+- !private ["Ps9AnyObject", "ULUrlManager"]
+- !private ["Ps9AnyObject", "confirmRegistrationAPIUrl"]
+- ["Ps9AnyObject", "confirmUserRegistration"]
+- !private ["Ps9AnyObject", "get"]
+- !private ["Ps9AnyObject", "getFailureErrorCodeFromResponse"]
+- !private ["Ps9AnyObject", "getHubDetailsPerUserAPIUrl"]
+- ["Ps9AnyObject", "getHubPerUser"]
+- ["Ps9AnyObject", "getSensorDetailsByHubId"]
+- !private ["Ps9AnyObject", "getSensorDetailsByHubIdAPIUrl"]
+- !private ["Ps9AnyObject", "httpManager"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "loginUser"]
+- !private ["Ps9AnyObject", "post"]
+- !private ["Ps9AnyObject", "put"]
+- ["Ps9AnyObject", "registerUser"]
+- ["Ps9AnyObject", "resendOTP"]
+- !private ["Ps9AnyObject", "resendOTPAPIUrl"]
+- ["Ps9AnyObject", "sharedInstance"]
+- ["Ps9AnyObject", "updateSensorDetails"]
+- !private ["Ps9AnyObject", "updateSensorDetailsAPIUrl"]
+- !private ["Ps9AnyObject", "usersLoginAPIUrl"]
+- !private ["Ps9AnyObject", "usersSignUpAPIUrl"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "NSError"]
+- !private ["Ps7CVarArg", "ULCHManager"]
+- !private ["Ps7CVarArg", "ULRequestManager"]
+- !private ["Ps7CVarArg", "ULUrlManager"]
+- !private ["Ps7CVarArg", "Value"]
+- ["Ps7CVarArg", "confirmUserRegistration"]
+- !private ["Ps7CVarArg", "get"]
+- ["Ps7CVarArg", "getHubPerUser"]
+- ["Ps7CVarArg", "getSensorDetailsByHubId"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "loginUser"]
+- !private ["Ps7CVarArg", "post"]
+- !private ["Ps7CVarArg", "put"]
+- ["Ps7CVarArg", "registerUser"]
+- ["Ps7CVarArg", "resendOTP"]
+- ["Ps7CVarArg", "sharedInstance"]
+- ["Ps7CVarArg", "updateSensorDetails"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NSError"]
+- !private ["Ps28CustomDebugStringConvertible", "ULCHManager"]
+- !private ["Ps28CustomDebugStringConvertible", "ULRequestManager"]
+- !private ["Ps28CustomDebugStringConvertible", "ULUrlManager"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "confirmUserRegistration"]
+- !private ["Ps28CustomDebugStringConvertible", "get"]
+- ["Ps28CustomDebugStringConvertible", "getHubPerUser"]
+- ["Ps28CustomDebugStringConvertible", "getSensorDetailsByHubId"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "loginUser"]
+- !private ["Ps28CustomDebugStringConvertible", "post"]
+- !private ["Ps28CustomDebugStringConvertible", "put"]
+- ["Ps28CustomDebugStringConvertible", "registerUser"]
+- ["Ps28CustomDebugStringConvertible", "resendOTP"]
+- ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps28CustomDebugStringConvertible", "updateSensorDetails"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NSError"]
+- !private ["Ps23CustomStringConvertible", "ULCHManager"]
+- !private ["Ps23CustomStringConvertible", "ULRequestManager"]
+- !private ["Ps23CustomStringConvertible", "ULUrlManager"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "confirmUserRegistration"]
+- !private ["Ps23CustomStringConvertible", "get"]
+- ["Ps23CustomStringConvertible", "getHubPerUser"]
+- ["Ps23CustomStringConvertible", "getSensorDetailsByHubId"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "loginUser"]
+- !private ["Ps23CustomStringConvertible", "post"]
+- !private ["Ps23CustomStringConvertible", "put"]
+- ["Ps23CustomStringConvertible", "registerUser"]
+- ["Ps23CustomStringConvertible", "resendOTP"]
+- ["Ps23CustomStringConvertible", "sharedInstance"]
+- ["Ps23CustomStringConvertible", "updateSensorDetails"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Ps9Equatable", "NSError"]
+- !private ["Ps9Equatable", "ULCHManager"]
+- !private ["Ps9Equatable", "ULRequestManager"]
+- !private ["Ps9Equatable", "ULUrlManager"]
+- ["Ps9Equatable", "confirmUserRegistration"]
+- !private ["Ps9Equatable", "get"]
+- ["Ps9Equatable", "getHubPerUser"]
+- ["Ps9Equatable", "getSensorDetailsByHubId"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "loginUser"]
+- !private ["Ps9Equatable", "post"]
+- !private ["Ps9Equatable", "put"]
+- ["Ps9Equatable", "registerUser"]
+- ["Ps9Equatable", "resendOTP"]
+- ["Ps9Equatable", "sharedInstance"]
+- ["Ps9Equatable", "updateSensorDetails"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NSError"]
+- !private ["Ps8Hashable", "ULCHManager"]
+- !private ["Ps8Hashable", "ULRequestManager"]
+- !private ["Ps8Hashable", "ULUrlManager"]
+- ["Ps8Hashable", "confirmUserRegistration"]
+- !private ["Ps8Hashable", "get"]
+- ["Ps8Hashable", "getHubPerUser"]
+- ["Ps8Hashable", "getSensorDetailsByHubId"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "loginUser"]
+- !private ["Ps8Hashable", "post"]
+- !private ["Ps8Hashable", "put"]
+- ["Ps8Hashable", "registerUser"]
+- ["Ps8Hashable", "resendOTP"]
+- ["Ps8Hashable", "sharedInstance"]
+- ["Ps8Hashable", "updateSensorDetails"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Si", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "get"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "post"]
+- !private ["PSo8NSCoding", "put"]
+- !private ["PSo9NSCopying", "get"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "post"]
+- !private ["PSo9NSCopying", "put"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["CSo7NSError", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "ULCHManager"]
+- !private ["CSo8NSObject", "ULRequestManager"]
+- !private ["CSo8NSObject", "ULUrlManager"]
+- !private ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "confirmUserRegistration"]
+- ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "get"]
+- ["CSo8NSObject", "getHubPerUser"]
+- ["CSo8NSObject", "getSensorDetailsByHubId"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "loginUser"]
+- !private ["CSo8NSObject", "post"]
+- !private ["CSo8NSObject", "put"]
+- ["CSo8NSObject", "registerUser"]
+- ["CSo8NSObject", "resendOTP"]
+- ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", "updateSensorDetails"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "NSError"]
+- !private ["PSo16NSObjectProtocol", "ULCHManager"]
+- !private ["PSo16NSObjectProtocol", "ULRequestManager"]
+- !private ["PSo16NSObjectProtocol", "ULUrlManager"]
+- ["PSo16NSObjectProtocol", "confirmUserRegistration"]
+- !private ["PSo16NSObjectProtocol", "get"]
+- ["PSo16NSObjectProtocol", "getHubPerUser"]
+- ["PSo16NSObjectProtocol", "getSensorDetailsByHubId"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "loginUser"]
+- !private ["PSo16NSObjectProtocol", "post"]
+- !private ["PSo16NSObjectProtocol", "put"]
+- ["PSo16NSObjectProtocol", "registerUser"]
+- ["PSo16NSObjectProtocol", "resendOTP"]
+- ["PSo16NSObjectProtocol", "sharedInstance"]
+- ["PSo16NSObjectProtocol", "updateSensorDetails"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "get"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "post"]
+- !private ["PSo14NSSecureCoding", "put"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["Sq", "some"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["C4ULCH11ULCHManager", "AnyObject"]
+- ["C4ULCH11ULCHManager", "NSError"]
+- ["C4ULCH11ULCHManager", "String"]
+- ["C4ULCH11ULCHManager", "ULCHManager"]
+- !private ["C4ULCH11ULCHManager", "ULRequestManager"]
+- !private ["C4ULCH11ULCHManager", "ULUrlManager"]
+- !private ["C4ULCH11ULCHManager", "Void"]
+- ["C4ULCH11ULCHManager", "confirmUserRegistration"]
+- ["C4ULCH11ULCHManager", "deinit"]
+- ["C4ULCH11ULCHManager", "getHubPerUser"]
+- ["C4ULCH11ULCHManager", "getSensorDetailsByHubId"]
+- ["C4ULCH11ULCHManager", "init"]
+- ["C4ULCH11ULCHManager", "loginUser"]
+- ["C4ULCH11ULCHManager", "registerUser"]
+- ["C4ULCH11ULCHManager", "resendOTP"]
+- ["C4ULCH11ULCHManager", "sharedInstance"]
+- ["C4ULCH11ULCHManager", "updateSensorDetails"]
+- ["C4ULCH16ULRequestManager", "deinit"]
+- !private ["C4ULCH16ULRequestManager", "getFailureErrorCodeFromResponse"]
+- !private ["C4ULCH16ULRequestManager", "httpManager"]
+- !private ["C4ULCH16ULRequestManager", "sharedInstance"]
+- !private ["C4ULCH12ULUrlManager", "confirmRegistrationAPIUrl"]
+- ["C4ULCH12ULUrlManager", "deinit"]
+- !private ["C4ULCH12ULUrlManager", "getHubDetailsPerUserAPIUrl"]
+- !private ["C4ULCH12ULUrlManager", "getSensorDetailsByHubIdAPIUrl"]
+- !private ["C4ULCH12ULUrlManager", "resendOTPAPIUrl"]
+- !private ["C4ULCH12ULUrlManager", "sharedInstance"]
+- !private ["C4ULCH12ULUrlManager", "updateSensorDetailsAPIUrl"]
+- !private ["C4ULCH12ULUrlManager", "usersLoginAPIUrl"]
+- !private ["C4ULCH12ULUrlManager", "usersSignUpAPIUrl"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "NSError"]
+- !private ["Ps9_Hashable", "ULCHManager"]
+- !private ["Ps9_Hashable", "ULRequestManager"]
+- !private ["Ps9_Hashable", "ULUrlManager"]
+- ["Ps9_Hashable", "confirmUserRegistration"]
+- !private ["Ps9_Hashable", "get"]
+- ["Ps9_Hashable", "getHubPerUser"]
+- ["Ps9_Hashable", "getSensorDetailsByHubId"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "loginUser"]
+- !private ["Ps9_Hashable", "post"]
+- !private ["Ps9_Hashable", "put"]
+- ["Ps9_Hashable", "registerUser"]
+- ["Ps9_Hashable", "resendOTP"]
+- ["Ps9_Hashable", "sharedInstance"]
+- ["Ps9_Hashable", "updateSensorDetails"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "CSo29AFHTTPRequestOperationManager"
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Si"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "C4ULCH11ULCHManager"
+- "C4ULCH16ULRequestManager"
+- "C4ULCH12ULUrlManager"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH-Bridging-Header.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/PhoneNumbers/NBPhoneNumberUtil.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/PhoneNumbers/NBPhoneNumberDefines.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFNetworking.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLRequestSerialization.h"
+- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFSecurityPolicy.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLConnectionOperation.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFHTTPRequestOperation.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFURLSessionManager.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/Networks/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/ULCH/NetworkConnectivity/ULConnectivity.h"
+- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode 8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/FirebaseMessaging/Frameworks/frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
+interface-hash: "5ea9096e53d84959a91c7539edd0fea4"

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>780551983543-k2nt5lnq99qqc4o08ljr3e72jqfqg6sk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.780551983543-k2nt5lnq99qqc4o08ljr3e72jqfqg6sk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA8LbDsEcxfOOi8XPOuD2ROc5sYbcuiEtE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>780551983543</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gadgeon.ULCH</string>
+	<key>PROJECT_ID</key>
+	<string>ulch-ca24f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ulch-ca24f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:780551983543:ios:da9c28bad444c5a3</string>
+	<key>DATABASE_URL</key>
+	<string>https://ulch-ca24f.firebaseio.com</string>
+</dict>
+</plist>

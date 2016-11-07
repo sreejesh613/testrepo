@@ -1,0 +1,114 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Products/Debug-iphoneos/Pods_ULCH.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-ULCH-umbrella.h",
+          'external-contents': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Target Support Files/Pods-ULCH/Pods-ULCH-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_ULCH-Swift.h",
+          'external-contents': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Products/Debug-iphoneos/Pods_ULCH.framework/Headers/Pods_ULCH-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Products/Debug-iphoneos/Pods_ULCH.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Intermediates/Pods.build/Debug-iphoneos/Pods-ULCH.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Products/Debug-iphoneos/Pods_ULCHTests.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-ULCHTests-umbrella.h",
+          'external-contents': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Target Support Files/Pods-ULCHTests/Pods-ULCHTests-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_ULCHTests-Swift.h",
+          'external-contents': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Products/Debug-iphoneos/Pods_ULCHTests.framework/Headers/Pods_ULCHTests-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Products/Debug-iphoneos/Pods_ULCHTests.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Intermediates/Pods.build/Debug-iphoneos/Pods-ULCHTests.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Products/Debug-iphoneos/Pods_ULCHUITests.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-ULCHUITests-umbrella.h",
+          'external-contents': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Target Support Files/Pods-ULCHUITests/Pods-ULCHUITests-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_ULCHUITests-Swift.h",
+          'external-contents': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Products/Debug-iphoneos/Pods_ULCHUITests.framework/Headers/Pods_ULCHUITests-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Products/Debug-iphoneos/Pods_ULCHUITests.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Intermediates/Pods.build/Debug-iphoneos/Pods-ULCHUITests.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SideMenu-Swift.h",
+          'external-contents': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SideMenu-umbrella.h",
+          'external-contents': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Pods/Target Support Files/SideMenu/SideMenu-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Products/Debug-iphoneos/SideMenu/SideMenu.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sijo/Desktop/ULCH_iOS_Repo/ULCH/ulch_ios/Build/Intermediates/SwiftMigration/ULCH/Intermediates/Pods.build/Debug-iphoneos/SideMenu.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="HubDetails" representedClassName=".HubDetails" syncable="YES">
+        <attribute name="adminIndicator" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firmware" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hubId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hubLoc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hubRegStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hubStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zWaveInd" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LocImageDetails" representedClassName=".LocImageDetails" syncable="YES">
+        <attribute name="locImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sensorLocation" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SensorDetails" representedClassName=".SensorDetails" syncable="YES">
+        <attribute name="batteryStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hubId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sensorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sensorLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sensorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sensorState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sensorStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sensorType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zWaveInd" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="HubDetails" positionX="-306" positionY="-171" width="128" height="150"/>
+        <element name="SensorDetails" positionX="-54" positionY="-234" width="128" height="180"/>
+        <element name="LocImageDetails" positionX="-180" positionY="-153" width="128" height="75"/>
+    </elements>
+</model>
